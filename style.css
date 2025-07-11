@@ -235,7 +235,62 @@ img {
   animation: flicker 8s linear infinite;
 }
 /* Animated images */
-
+@keyframes flicker {
+  0% {
+    opacity: 0;
+  }
+  31.98% {
+    opacity: 0;
+  }
+  32% {
+    opacity: 1;
+  }
+  32.8% {
+    opacity: 1;
+  }
+  32.82% {
+    opacity: 0;
+  }
+  34.98% {
+    opacity: 0;
+  }
+  35% {
+    opacity: 1;
+  }
+  35.7% {
+    opacity: 1;
+  }
+  35.72% {
+    opacity: 1;
+  }
+  36.98% {
+    opacity: 1;
+  }
+  37% {
+    opacity: 1;
+  }
+  37.6% {
+    opacity: 1;
+  }
+  37.62% {
+    opacity: 1;
+  }
+  67.98% {
+    opacity: 1;
+  }
+  68% {
+    opacity: 1;
+  }
+  68.4% {
+    opacity: 1;
+  }
+  68.42% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 /* Atropos class */
 
