@@ -209,6 +209,31 @@ img {
   box-shadow: 0 16px 32px hsla(25, 90%, 40%, 0.3);
   transition: background-color 0.4s;
 }
+
+.home__button:hover {
+  background-color: var(--first-color-alt);
+}
+
+.home__images {
+  position: relative;
+  justify-self: center;
+}
+
+.home__img-1,
+.home__img-2 {
+  width: 300px;
+}
+
+.home__img-1 {
+  filter: drop-shadow(0 16px 48px hsla(25, 90%, 40%, 0.5));
+}
+
+.home__img-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: flicker 8s linear infinite;
+}
 /* Animated images */
 
 
