@@ -293,10 +293,11 @@ img {
 }
 
 /* Atropos class */
-
+.atropos-inner{
+  overflow: initial;
+}
 
 /*=============== BREAKPOINTS ===============*/
-/* For small devices */
 
 
 /* For medium devices */
